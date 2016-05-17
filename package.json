@@ -5,6 +5,7 @@
     "files": [
         "css/colReorder.bootstrap.css"
     ],
+    "style": "css/colReorder.bootstrap.css",
     "keywords": [
         "reorder",
         "DataTables",
