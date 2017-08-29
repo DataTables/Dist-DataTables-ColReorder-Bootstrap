@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-colreorder-bs",
-    "description": "ColReorder for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
+    "description": "ColReorder for DataTables with styling for [Bootstrap 3](http://getbootstrap.com/)",
     "main": [
         "css/colReorder.bootstrap.css"
     ],
