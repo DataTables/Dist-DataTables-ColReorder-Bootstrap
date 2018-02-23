@@ -3,7 +3,10 @@
         "css/colReorder.bootstrap.css",
         "css/colReorder.bootstrap.min.css"
     ],
-    "js": [],
+    "js": [
+        "js/colReorder.bootstrap.js",
+        "js/colReorder.bootstrap.min.js"
+    ],
     "src-repo": "http://github.com/DataTables/ColReorder",
     "last-sync": "424e68dca61a29a46fc36130804a040222e667e9",
     "last-tag": "1.4.1"
