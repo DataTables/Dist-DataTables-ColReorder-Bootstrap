@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>datatables.net-colreorder-bs</id>
+        <version>1.5.2</version>
+        <description>ColReorder for DataTables</description>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>colreorder DataTables jQuery table Bootstrap</tags>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-ColReorder-Bootstrap.git"/>
+        <dependencies>
+            <dependency id="jquery" version="1.7.0"/>
+            <dependency id="datatables.net" version="1.10.15"/>
+            <dependency id="datatables.net-colreorder" version="1.5.2"/>
+            <dependency id="bootstrap" version="3.*"/>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js/colreorder.bootstrap.js"/>
+        <file src="js/colreorder.bootstrap.min.js"/>
+        <file src="css/colreorder.bootstrap.css"/>
+        <file src="css/colreorder.bootstrap.min.css"/>
+    </files>
+</package>
