@@ -1,27 +1,33 @@
-
 {
-	"name": "datatables.net/datatables.net-colreorder-bs",
-	"version": "1.5.2",
-	"description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table. This is the ColReorder extension for DataTables.", 
-	"homepage": "http://www.datatables.net/",
-	"authors": [{
-		"name": "SpryMedia",
-		"homepage": "https://datatables.net"
-	}], 
-	"license": [
-		"MIT"
-	],
+    "version": "1.5.3",
+    "name": "datatables.net/datatables.net-colreorder-bs",
+    "description": "ColReorder allows the end user to modify the column order of a table through drop-and-drag of column headers. This is ColReorder for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
+    "support": {
+        "forum": "https://datatables.net/forums",
+        "source": "https://github.com/DataTables/Dist-DataTables-ColReorder-Bootstrap"
+    },
+    "homepage": "http://www.datatables.net/",
+    "authors": [
+        {
+            "name": "SpryMedia",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
     "prefer-stable": true,
     "minimum-stability": "dev",
-	"support": {
-		"forum": "https://datatables.net/forums",
-		"source": "https://github.com/DataTables/Dist-DataTables-ColReorder-Bootstrap/"
-    },
-    "keywords": ["DataTables", "jQuery", "table", "colreorder", "Bootstrap"],
+    "keywords": [
+        "ColReorder",
+ "Reorder",
+        "Bootstrap",
+        "Datatables",
+        "jQuery",
+        "table"
+    ],
     "require": {
-        "components/jquery":">=3.5.1",
-        "datatables.net/datatables.net":">=1.10.15",
-        "datatables.net/datatables.net-colreorder":">=1.5.2",
-        "twbs/bootstrap": "3.*"
+        "datatables.net/datatables.net-colreorder": ">=1.5.3",
+        "datatables.net/datatables.net-bs": ">=1.10.24"
     }
 }
