@@ -3,6 +3,7 @@
     "description": "ColReorder for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
     "main": "js/colReorder.bootstrap.js",
     "style": "css/colReorder.bootstrap.css",
+    "types": "./types/colReorder.bootstrap.d.ts",
     "version": "1.5.3",
     "files": [
         "css/**/*.css",
