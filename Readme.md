@@ -1,6 +1,6 @@
 # ColReorder for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)
 
-This package contains a built distribution of the [ColReorder extension](https://datatables.net/extensions/ColReorder) for [DataTables](https://datatables.net/) with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/).
+This package contains a built distribution of the [ColReorder extension](https://datatables.net/extensions/colreorder) for [DataTables](https://datatables.net/) with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/).
 
 ColReorder allows the end user to modify the column order of a table through drop-and-drag of column headers.
 
