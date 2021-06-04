@@ -4,14 +4,14 @@
     "main": "js/colReorder.bootstrap.js",
     "style": "css/colReorder.bootstrap.css",
     "types": "./types/colReorder.bootstrap.d.ts",
-    "version": "1.5.3",
+    "version": "1.5.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "ColReorder",
- "Reorder",
+        "Reorder",
         "Bootstrap",
         "Datatables",
         "jQuery",
@@ -20,9 +20,9 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-colreorder": ">=1.5.3",
-        "datatables.net-bs": ">=1.10.24",
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-bs": "^1.10.15",
+        "datatables.net-colreorder": "1.5.4"
     },
     "moduleType": [
         "globals",
