@@ -4,7 +4,7 @@
 
 import $ from 'jquery';
 import DataTable from 'datatables.net-bs';
-import 'datatables.net-colreorder';
+import ColReorder from 'datatables.net-colreorder';
 
 
 
