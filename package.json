@@ -5,7 +5,7 @@
     "module": "js/colReorder.bootstrap.mjs",
     "style": "css/colReorder.bootstrap.css",
     "types": "./types/colReorder.bootstrap.d.ts",
-    "version": "1.6.2",
+    "version": "1.7.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,7 +14,7 @@
     ],
     "keywords": [
         "ColReorder",
- "Reorder",
+        "Reorder",
         "Bootstrap",
         "Datatables",
         "jQuery",
