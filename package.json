@@ -5,7 +5,7 @@
     "module": "js/colReorder.bootstrap.mjs",
     "style": "css/colReorder.bootstrap.css",
     "types": "./types/colReorder.bootstrap.d.ts",
-    "version": "2.0.4",
+    "version": "2.1.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,7 +23,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-colreorder": "2.0.4",
+        "datatables.net-colreorder": "2.1.0",
         "datatables.net-bs": "^2",
         "jquery": ">=1.7"
     },
