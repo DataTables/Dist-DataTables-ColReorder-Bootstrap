@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>ColReorder  Reorder  Bootstrap  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-colreorder" version="1.5.6"/>
-            <dependency id="datatables.net-bs" version="1.12.1"/>
+            <dependency id="datatables.net-colreorder" version="2.1.1"/>
+            <dependency id="datatables.net-bs" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/colReorder.bootstrap.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/colReorder.bootstrap.min.js" target="content\Scripts"/>
         <file src="js/colReorder.bootstrap.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/colReorder.bootstrap.min.mjs" target="content\Scripts"/>
+        <file src="js/colReorder.bootstrap.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/colReorder.bootstrap.mjs" target="content\Scripts"/>
+        <file src="js/colReorder.bootstrap.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/colReorder.bootstrap.css" target="content\Content"/>
         <file src="css/colReorder.bootstrap.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/colReorder.bootstrap.min.css" target="content\Content"/>
