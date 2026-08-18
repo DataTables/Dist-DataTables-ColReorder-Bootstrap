@@ -1,4 +1,4 @@
-/*! ColReorder Bootstrap 3 styling 3.0.0 for DataTables
+/*! ColReorder Bootstrap 3 styling 3.0.1 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
