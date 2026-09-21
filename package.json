@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-colreorder-bs",
     "description": "ColReorder for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
-    "main": "js/colReorder.bootstrap.js",
-    "module": "js/colReorder.bootstrap.mjs",
-    "style": "css/colReorder.bootstrap.css",
+    "main": "./js/colReorder.bootstrap.js",
+    "module": "./js/colReorder.bootstrap.mjs",
+    "style": "./css/colReorder.bootstrap.css",
     "types": "./types/colReorder.bootstrap.d.ts",
     "version": "3.0.2",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "ColReorder",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/ColReorder.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/colReorder.bootstrap.d.ts",
+            "import": "./js/colReorder.bootstrap.mjs",
+            "default": "./js/colReorder.bootstrap.mjs",
+            "require": "./js/colReorder.bootstrap.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/colReorder.bootstrap.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
